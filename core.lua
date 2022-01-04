@@ -1,7 +1,7 @@
 AutoHideGUI = {
     enabled = true,
     lastTick = 0,
-    guihidden = false,
+    guiHidden = false,
 }
 
 function AutoHideGUI.Update(_, tickCount)
@@ -20,13 +20,13 @@ function AutoHideGUI.Update(_, tickCount)
     if tickCount - AutoHideGUI.lastTick >= 100 then
         AutoHideGUI.lastTick = tickCount
 
-        if IsControlOpen("ChatLog") and AutoHideGUI.guihidden then
-            AutoHideGUI.guihidden = false
+        if IsControlOpen("ChatLog") and AutoHideGUI.guiHidden then
+            AutoHideGUI.guiHidden = false
             ToggleGUI()
         end
 
-        if not IsControlOpen("ChatLog") and not AutoHideGUI.guihidden then
-            AutoHideGUI.guihidden = true
+        if not IsControlOpen("ChatLog") and not AutoHideGUI.guiHidden then
+            AutoHideGUI.guiHidden = true
             ToggleGUI()
         end
     end
