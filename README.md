@@ -4,7 +4,7 @@ Simple addon that toggles the GUI off when you enter a cutscene. It does this by
 When this chat log window is hidden, the rest of the GUI also hides itself, for a more immersive experience.
 
 # To install
-Simply download the zip file from here and drop the extracted contents into
+Simply download the zip file from here (Green button "Code" -> "Download ZIP") and drop the extracted contents into
 ```C:\MINIONAPP\Bots\FFXIVMinion64\LuaMods```
 
 
