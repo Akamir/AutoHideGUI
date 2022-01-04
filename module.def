@@ -1,0 +1,6 @@
+[Module]
+Name=AutoHideGUI
+Dependencies=minionlib
+Version=1
+Files=core.lua,gui.lua
+Enabled=1
